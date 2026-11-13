@@ -1,0 +1,154 @@
+{
+  "created_at": "2026-06-10T04:09:01.812419+00:00",
+  "dna": "E:\\Viewer\\DNA\\0421_V33\\head.dna",
+  "mesh_name": "head_lod0_mesh",
+  "mesh_index": 0,
+  "lod": 0,
+  "vertex_index_base": 0,
+  "vertex_count": 24049,
+  "blend_shape_target_count": 737,
+  "all_ok": true,
+  "checks": [
+    {
+      "check": "head_lod0_mesh index",
+      "ok": true,
+      "detail": "mesh_index=0"
+    },
+    {
+      "check": "rig vertex count",
+      "ok": true,
+      "detail": "rig=24049 expected=24049"
+    },
+    {
+      "check": "head_summary vertex count",
+      "ok": true,
+      "detail": "summary=24049 rig=24049"
+    },
+    {
+      "check": "head_summary BS target count",
+      "ok": true,
+      "detail": "summary=737 rig=737"
+    },
+    {
+      "check": "blend_shape_targets target count",
+      "ok": true,
+      "detail": "json=737 rig=737"
+    },
+    {
+      "check": "blend_shape_targets sampled vertex indices",
+      "ok": true,
+      "detail": "20 targets sampled, mismatches=[]"
+    },
+    {
+      "check": "blend_shape_targets max vertex id < count",
+      "ok": true,
+      "detail": "max_vid=24048"
+    },
+    {
+      "check": "joint_vertices vertex count",
+      "ok": true,
+      "detail": "json=24049 rig=24049"
+    },
+    {
+      "check": "joint_vertices sampled weights",
+      "ok": true,
+      "detail": "20 joints sampled, mismatches=[]"
+    },
+    {
+      "check": "landmark vertices picked",
+      "ok": true,
+      "detail": "10/10"
+    }
+  ],
+  "landmark_vertices": {
+    "nose_tip": {
+      "vertex_id": 2926,
+      "position_cm": [
+        -0.0772,
+        159.9171,
+        13.0285
+      ]
+    },
+    "upper_lip_center": {
+      "vertex_id": 12207,
+      "position_cm": [
+        -0.0081,
+        157.0888,
+        11.8057
+      ],
+      "source": "lip mask group 'upper_outer_lip'"
+    },
+    "lower_lip_center": {
+      "vertex_id": 2881,
+      "position_cm": [
+        0.0045,
+        155.9747,
+        11.4715
+      ],
+      "source": "lip mask group 'lower_outer_lip'"
+    },
+    "left_mouth_corner": {
+      "vertex_id": 6142,
+      "position_cm": [
+        2.1744,
+        156.3397,
+        10.3743
+      ],
+      "source": "lip mask group 'left_mouth_corner'"
+    },
+    "right_mouth_corner": {
+      "vertex_id": 40,
+      "position_cm": [
+        -2.0683,
+        156.3778,
+        10.3464
+      ],
+      "source": "lip mask group 'right_mouth_corner'"
+    },
+    "chin": {
+      "vertex_id": 20401,
+      "position_cm": [
+        -0.1062,
+        153.6638,
+        11.1867
+      ]
+    },
+    "forehead": {
+      "vertex_id": 2109,
+      "position_cm": [
+        -0.2647,
+        166.233,
+        11.7777
+      ]
+    },
+    "left_cheek": {
+      "vertex_id": 21901,
+      "position_cm": [
+        8.4394,
+        161.9135,
+        0.0101
+      ]
+    },
+    "right_cheek": {
+      "vertex_id": 18888,
+      "position_cm": [
+        -8.553,
+        161.8914,
+        0.0189
+      ]
+    },
+    "jawline_left": {
+      "vertex_id": 5365,
+      "position_cm": [
+        3.9846,
+        154.6259,
+        7.5967
+      ]
+    }
+  },
+  "notes": [
+    "Single source of truth: head.dna via riglogic API (FaceModel pipeline).",
+    "joint_vertices.json / blend_shape_targets.json exports verified against rig API.",
+    "DCC (Maya/Blender/FBX) paths are not used anywhere in the LVE pipeline; vertex order is therefore defined solely by the DNA."
+  ]
+}

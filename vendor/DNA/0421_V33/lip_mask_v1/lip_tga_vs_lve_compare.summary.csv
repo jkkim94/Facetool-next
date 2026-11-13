@@ -1,0 +1,6 @@
+quadrant,tga_count,lve_uv_quad_count,intersection,only_tga,only_lve_uv,jaccard,tga_recall_in_lve_uv
+UL,784,718,26,758,692,0.0176,0.0332
+UR,784,737,41,743,696,0.0277,0.0523
+DL,843,546,28,815,518,0.0206,0.0332
+DR,841,564,44,797,520,0.0323,0.0523
+UNION4,2832,2565,2225,607,340,0.7015,0.7857

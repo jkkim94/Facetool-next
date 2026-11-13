@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-06-10T04:00:52.711935+00:00",
+  "final_lip_mask_count": 2738,
+  "total_head_vertex_count": 24049,
+  "analysis": {
+    "blendshape_vs_lip": {
+      "candidate_count": 9934,
+      "intersection": 2674,
+      "overlap_ratio": 0.9766,
+      "precision_like": 0.2692,
+      "jaccard": 0.2675
+    },
+    "skinning_vs_lip": {
+      "candidate_count": 5457,
+      "intersection": 2738,
+      "overlap_ratio": 1.0,
+      "precision_like": 0.5017,
+      "jaccard": 0.5017
+    },
+    "displacement_vs_lip": {
+      "candidate_count": 9956,
+      "intersection": 2738,
+      "overlap_ratio": 1.0,
+      "precision_like": 0.275,
+      "jaccard": 0.275
+    },
+    "displacement_repeated_vs_lip": {
+      "candidate_count": 1362,
+      "intersection": 1095,
+      "overlap_ratio": 0.3999,
+      "precision_like": 0.804,
+      "jaccard": 0.3644
+    },
+    "epic_mouth_region_vs_lip": {
+      "candidate_count": 6944,
+      "intersection": 274,
+      "overlap_ratio": 0.1001,
+      "precision_like": 0.0395,
+      "jaccard": 0.0291,
+      "index_space_verified": false,
+      "note": "Epic identity candidate; near-zero overlap is expected if index_space_verified is false (different vertex order)"
+    },
+    "jaw_vs_lip": {
+      "candidate_count": 2313,
+      "intersection": 0,
+      "overlap_ratio": 0.0,
+      "precision_like": 0.0,
+      "jaccard": 0.0
+    }
+  },
+  "review": {
+    "lip_not_in_displacement_union": 0,
+    "lip_not_in_blendshape_union": 64,
+    "lip_not_in_epic_mouth_region": 2464,
+    "note": "lip verts outside the displacement union would indicate dead (non-articulating) vertices in the mask; 0 or near-0 expected"
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "metadata": {
+    "source": "MetaHuman DNA export (SourceAssets/masks)",
+    "dna_dir": "E:\\Viewer\\DNA\\0421_V33",
+    "masks_dir": "E:\\Viewer\\DNA\\0421_V33\\SourceAssets\\masks",
+    "mesh_name": "head_lod0_mesh",
+    "lod": 0,
+    "uv_wrap": "TGA grayscale weights use the same UV layout as head_lod0_mesh (DNA texture coordinates served as /uvs). Each mask weights animated normal/color map blending for its animated_map_name when RigLogic behavior drives the linked raw controls.",
+    "naming": {
+      "tga": "{mask_id}_msk.tga",
+      "animated_map": "{material_slot}.{mask_id}",
+      "example_tga": "head_wm13_lips_UL_msk.tga",
+      "example_animated_map": "head_cm1_color.head_wm13_lips_UL"
+    },
+    "created_at": "2026-06-10T07:45:37.572885+00:00",
+    "mask_count": 37,
+    "animated_map_count": 82
+  },
+  "masks": [
+    {
+      "index": 0,
+      "file": "head_wm13_lips_DL_msk.tga",
+      "mask_id": "head_wm13_lips_DL",
+      "animated_map_name": "head_cm1_color.head_wm13_lips_DL",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm13",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 1,
+      "file": "head_wm13_lips_DR_msk.tga",
+      "mask_id": "head_wm13_lips_DR",
+      "animated_map_name": "head_cm1_color.head_wm13_lips_DR",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm13",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 2,
+      "file": "head_wm13_lips_UL_msk.tga",
+      "mask_id": "head_wm13_lips_UL",
+      "animated_map_name": "head_cm1_color.head_wm13_lips_UL",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm13",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 3,
+      "file": "head_wm13_lips_UR_msk.tga",
+      "mask_id": "head_wm13_lips_UR",
+      "animated_map_name": "head_cm1_color.head_wm13_lips_UR",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm13",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 4,
+      "file": "head_wm1_blink_L_msk.tga",
+      "mask_id": "head_wm1_blink_L",
+      "animated_map_name": "head_cm1_color.head_wm1_blink_L",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 5,
+      "file": "head_wm1_blink_R_msk.tga",
+      "mask_id": "head_wm1_blink_R",
+      "animated_map_name": "head_cm1_color.head_wm1_blink_R",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 6,
+      "file": "head_wm1_browsRaiseInner_L_msk.tga",
+      "mask_id": "head_wm1_browsRaiseInner_L",
+      "animated_map_name": "head_cm1_color.head_wm1_browsRaiseInner_L",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 7,
+      "file": "head_wm1_browsRaiseInner_R_msk.tga",
+      "mask_id": "head_wm1_browsRaiseInner_R",
+      "animated_map_name": "head_cm1_color.head_wm1_browsRaiseInner_R",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 8,
+      "file": "head_wm1_browsRaiseOuter_L_msk.tga",
+      "mask_id": "head_wm1_browsRaiseOuter_L",
+      "animated_map_name": "head_cm1_color.head_wm1_browsRaiseOuter_L",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 9,
+      "file": "head_wm1_browsRaiseOuter_R_msk.tga",
+      "mask_id": "head_wm1_browsRaiseOuter_R",
+      "animated_map_name": "head_cm1_color.head_wm1_browsRaiseOuter_R",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 10,
+      "file": "head_wm1_chinRaise_L_msk.tga",
+      "mask_id": "head_wm1_chinRaise_L",
+      "animated_map_name": "head_cm1_color.head_wm1_chinRaise_L",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 11,
+      "file": "head_wm1_chinRaise_R_msk.tga",
+      "mask_id": "head_wm1_chinRaise_R",
+      "animated_map_name": "head_cm1_color.head_wm1_chinRaise_R",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 12,
+      "file": "head_wm1_jawOpen_msk.tga",
+      "mask_id": "head_wm1_jawOpen",
+      "animated_map_name": "head_cm1_color.head_wm1_jawOpen",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 13,
+      "file": "head_wm1_purse_DL_msk.tga",
+      "mask_id": "head_wm1_purse_DL",
+      "animated_map_name": "head_cm1_color.head_wm1_purse_DL",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 14,
+      "file": "head_wm1_purse_DR_msk.tga",
+      "mask_id": "head_wm1_purse_DR",
+      "animated_map_name": "head_cm1_color.head_wm1_purse_DR",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 15,
+      "file": "head_wm1_purse_UL_msk.tga",
+      "mask_id": "head_wm1_purse_UL",
+      "animated_map_name": "head_cm1_color.head_wm1_purse_UL",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 16,
+      "file": "head_wm1_purse_UR_msk.tga",
+      "mask_id": "head_wm1_purse_UR",
+      "animated_map_name": "head_cm1_color.head_wm1_purse_UR",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 17,
+      "file": "head_wm1_squintInner_L_msk.tga",
+      "mask_id": "head_wm1_squintInner_L",
+      "animated_map_name": "head_cm1_color.head_wm1_squintInner_L",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 18,
+      "file": "head_wm1_squintInner_R_msk.tga",
+      "mask_id": "head_wm1_squintInner_R",
+      "animated_map_name": "head_cm1_color.head_wm1_squintInner_R",
+      "material_slot": "head_cm1_color",
+      "wm_layer": "wm1",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 19,
+      "file": "head_wm2_browsDown_L_msk.tga",
+      "mask_id": "head_wm2_browsDown_L",
+      "animated_map_name": "head_cm2_color.head_wm2_browsDown_L",
+      "material_slot": "head_cm2_color",
+      "wm_layer": "wm2",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 20,
+      "file": "head_wm2_browsDown_R_msk.tga",
+      "mask_id": "head_wm2_browsDown_R",
+      "animated_map_name": "head_cm2_color.head_wm2_browsDown_R",
+      "material_slot": "head_cm2_color",
+      "wm_layer": "wm2",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 21,
+      "file": "head_wm2_browsLateral_L_msk.tga",
+      "mask_id": "head_wm2_browsLateral_L",
+      "animated_map_name": "head_cm2_color.head_wm2_browsLateral_L",
+      "material_slot": "head_cm2_color",
+      "wm_layer": "wm2",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 22,
+      "file": "head_wm2_browsLateral_R_msk.tga",
+      "mask_id": "head_wm2_browsLateral_R",
+      "animated_map_name": "head_cm2_color.head_wm2_browsLateral_R",
+      "material_slot": "head_cm2_color",
+      "wm_layer": "wm2",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 23,
+      "file": "head_wm2_mouthStretch_L_msk.tga",
+      "mask_id": "head_wm2_mouthStretch_L",
+      "animated_map_name": "head_cm2_color.head_wm2_mouthStretch_L",
+      "material_slot": "head_cm2_color",
+      "wm_layer": "wm2",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 24,
+      "file": "head_wm2_mouthStretch_R_msk.tga",
+      "mask_id": "head_wm2_mouthStretch_R",
+      "animated_map_name": "head_cm2_color.head_wm2_mouthStretch_R",
+      "material_slot": "head_cm2_color",
+      "wm_layer": "wm2",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 25,
+      "file": "head_wm2_neckStretch_L_msk.tga",
+      "mask_id": "head_wm2_neckStretch_L",
+      "animated_map_name": "head_cm2_color.head_wm2_neckStretch_L",
+      "material_slot": "head_cm2_color",
+      "wm_layer": "wm2",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 26,
+      "file": "head_wm2_neckStretch_R_msk.tga",
+      "mask_id": "head_wm2_neckStretch_R",
+      "animated_map_name": "head_cm2_color.head_wm2_neckStretch_R",
+      "material_slot": "head_cm2_color",
+      "wm_layer": "wm2",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 27,
+      "file": "head_wm2_noseWrinkler_L_msk.tga",
+      "mask_id": "head_wm2_noseWrinkler_L",
+      "animated_map_name": "head_cm2_color.head_wm2_noseWrinkler_L",
+      "material_slot": "head_cm2_color",
+      "wm_layer": "wm2",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 28,
+      "file": "head_wm2_noseWrinkler_R_msk.tga",
+      "mask_id": "head_wm2_noseWrinkler_R",
+      "animated_map_name": "head_cm2_color.head_wm2_noseWrinkler_R",
+      "material_slot": "head_cm2_color",
+      "wm_layer": "wm2",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 29,
+      "file": "head_wm3_cheekRaiseInner_L_msk.tga",
+      "mask_id": "head_wm3_cheekRaiseInner_L",
+      "animated_map_name": "head_cm3_color.head_wm3_cheekRaiseInner_L",
+      "material_slot": "head_cm3_color",
+      "wm_layer": "wm3",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 30,
+      "file": "head_wm3_cheekRaiseInner_R_msk.tga",
+      "mask_id": "head_wm3_cheekRaiseInner_R",
+      "animated_map_name": "head_cm3_color.head_wm3_cheekRaiseInner_R",
+      "material_slot": "head_cm3_color",
+      "wm_layer": "wm3",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 31,
+      "file": "head_wm3_cheekRaiseOuter_L_msk.tga",
+      "mask_id": "head_wm3_cheekRaiseOuter_L",
+      "animated_map_name": "head_cm3_color.head_wm3_cheekRaiseOuter_L",
+      "material_slot": "head_cm3_color",
+      "wm_layer": "wm3",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 32,
+      "file": "head_wm3_cheekRaiseOuter_R_msk.tga",
+      "mask_id": "head_wm3_cheekRaiseOuter_R",
+      "animated_map_name": "head_cm3_color.head_wm3_cheekRaiseOuter_R",
+      "material_slot": "head_cm3_color",
+      "wm_layer": "wm3",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 33,
+      "file": "head_wm3_cheekRaiseUpper_L_msk.tga",
+      "mask_id": "head_wm3_cheekRaiseUpper_L",
+      "animated_map_name": "head_cm3_color.head_wm3_cheekRaiseUpper_L",
+      "material_slot": "head_cm3_color",
+      "wm_layer": "wm3",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 34,
+      "file": "head_wm3_cheekRaiseUpper_R_msk.tga",
+      "mask_id": "head_wm3_cheekRaiseUpper_R",
+      "animated_map_name": "head_cm3_color.head_wm3_cheekRaiseUpper_R",
+      "material_slot": "head_cm3_color",
+      "wm_layer": "wm3",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 35,
+      "file": "head_wm3_smile_L_msk.tga",
+      "mask_id": "head_wm3_smile_L",
+      "animated_map_name": "head_cm3_color.head_wm3_smile_L",
+      "material_slot": "head_cm3_color",
+      "wm_layer": "wm3",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    },
+    {
+      "index": 36,
+      "file": "head_wm3_smile_R_msk.tga",
+      "mask_id": "head_wm3_smile_R",
+      "animated_map_name": "head_cm3_color.head_wm3_smile_R",
+      "material_slot": "head_cm3_color",
+      "wm_layer": "wm3",
+      "mesh_name": "head_lod0_mesh",
+      "lod": 0
+    }
+  ]
+}

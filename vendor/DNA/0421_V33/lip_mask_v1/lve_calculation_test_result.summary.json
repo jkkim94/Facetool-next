@@ -1,0 +1,15 @@
+{
+  "frames": 206,
+  "lip_vertex_count": 2738,
+  "LVE_mean_cm": 0.06106037908874036,
+  "LVE_max_cm": 0.10735884440574153,
+  "upper_lip_error_cm": 0.05069759542898775,
+  "lower_lip_error_cm": 0.06654352243290042,
+  "corner_error_cm": 0.07221057027767576,
+  "upper_outer_lip_error_cm": 0.05292672289073528,
+  "lower_outer_lip_error_cm": 0.06905138633939523,
+  "upper_inner_lip_error_cm": 0.04846846796724022,
+  "lower_inner_lip_error_cm": 0.06403565852640561,
+  "left_mouth_corner_error_cm": 0.06882036268090838,
+  "right_mouth_corner_error_cm": 0.0756007778744431
+}

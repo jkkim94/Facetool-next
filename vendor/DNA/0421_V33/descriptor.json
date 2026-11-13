@@ -1,0 +1,22 @@
+{
+  "character_name": "Archetype",
+  "file_format_generation": 2,
+  "file_format_version": 5,
+  "archetype": "other",
+  "gender": "female",
+  "age": 24,
+  "db_name": "MH.6",
+  "db_complexity": "A1",
+  "db_max_lod": 0,
+  "translation_unit": "cm",
+  "rotation_unit": "degrees",
+  "coordinate_system": {
+    "x": "left",
+    "y": "up",
+    "z": "front"
+  },
+  "metadata": {
+    "archetype": "Eu"
+  },
+  "lod_count": 8
+}

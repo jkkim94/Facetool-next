@@ -1,0 +1,25 @@
+{
+  "default": "0421_V33",
+  "profiles": [
+    {
+      "id": "man",
+      "label": "남자 (man)",
+      "dna": "vendor/DNA/man/head.dna",
+      "maps": "vendor/DNA/man/Maps",
+      "region_uv_texture": null,
+      "lip_mask": null,
+      "mouth_region_mask": null,
+      "lower_face_mask": null
+    },
+    {
+      "id": "0421_V33",
+      "label": "여자 (0421_V33)",
+      "dna": "vendor/DNA/0421_V33/head.dna",
+      "maps": "vendor/DNA/0421_V33/Maps",
+      "region_uv_texture": "vendor/DNA/0421_V33/T_Gray_Head_D.PNG",
+      "lip_mask": "vendor/DNA/0421_V33/lip_mask_v1/metahuman_head_lod0_lip_mask.json",
+      "mouth_region_mask": "vendor/DNA/0421_V33/lip_mask_v1/metahuman_head_lod0_mouth_region_mask.json",
+      "lower_face_mask": "vendor/DNA/0421_V33/lip_mask_v1/metahuman_head_lod0_lower_face_mask.json"
+    }
+  ]
+}
