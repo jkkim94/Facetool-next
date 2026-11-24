@@ -5,7 +5,6 @@ export const TAB_IDS = [
   'service',
   'datasetbuilder',
   'riglogic',
-  'facecreator',
 ] as const
 
 export type TabId = (typeof TAB_IDS)[number]

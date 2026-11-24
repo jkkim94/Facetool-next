@@ -25,7 +25,6 @@ const TrainingViewWrapper = dynamicTab(() => import('@/components/training/Local
 const ServiceView = dynamicTab(() => import('@/views/ServiceView'))
 const DatasetBuilderView = dynamicTab(() => import('@/views/DatasetBuilderView'))
 const RigLogicView = dynamicTab(() => import('@/views/RigLogicView'))
-const FaceCreatorView = dynamicTab(() => import('@/views/FaceCreatorView'))
 
 const TABS: { id: TabId; label: string }[] = [
   { id: 'dataset', label: '데이터셋 검증' },
@@ -34,7 +33,6 @@ const TABS: { id: TabId; label: string }[] = [
   { id: 'service', label: '서비스' },
   { id: 'datasetbuilder', label: 'Dataset Builder' },
   { id: 'riglogic', label: 'RigLogic 재생' },
-  { id: 'facecreator', label: '얼굴 편집' },
 ]
 
 const TAB_PANELS: Record<TabId, React.ComponentType> = {
@@ -44,12 +42,11 @@ const TAB_PANELS: Record<TabId, React.ComponentType> = {
   service: ServiceView,
   datasetbuilder: DatasetBuilderView,
   riglogic: RigLogicView,
-  facecreator: FaceCreatorView,
 }
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState<TabId>('facecreator')
-  const [visited, setVisited] = useState<Set<TabId>>(() => new Set(['facecreator']))
+  const [activeTab, setActiveTab] = useState<TabId>('riglogic')
+  const [visited, setVisited] = useState<Set<TabId>>(() => new Set(['riglogic']))
 
   const selectTab = useCallback((id: TabId) => {
     setActiveTab(id)
